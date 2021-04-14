@@ -1,0 +1,15 @@
+name: PR Conformance
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+
+jobs:
+  jira:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check Title for JIRA Ticket
+        uses: thehanimo/pr-title-checker@v1.2
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
