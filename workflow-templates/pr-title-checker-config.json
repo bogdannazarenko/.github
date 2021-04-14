@@ -1,0 +1,9 @@
+{
+  "LABEL": {
+    "name": "Missing Jira Ticket",
+    "color": "DB1414"
+  },
+  "CHECKS": {
+    "regexp": "^[[A-Z]+-[0-9]+] "
+  }
+}

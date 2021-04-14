@@ -1,0 +1,6 @@
+
+{
+    "name": "PR Conformance Workflow",
+    "description": "Validating PR Rules",
+    "iconName": "pr-conformance"
+}
